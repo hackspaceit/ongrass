@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
-const title = "Free 500 NFT Grass Onchain Summer";
-const frameImgUrl = `${HOST_URL}/grass-nft.jpg`;
+const title = "Claim Liquid Marb NFT";
+const frameImgUrl = `${HOST_URL}/marb.jpg`;
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           content={`${HOST_URL}/api/frame/op/get-tx-frame`}
         />
       </Head>
-      <h1>Transaction Frame</h1>
+      <h1>Transaction Frame of Liquid Marb NFT</h1>
     </>
   );
 }
