@@ -12,7 +12,7 @@ export default function Home() {
         <meta property="fc:frame" content="Grass Onchain Summer"/>
         <meta name="fc:frame:image" content={frameImgUrl}/>
         <meta name="fc:frame:image:aspect_ratio" content="1:1"/>
-        <meta property="fc:frame:button:1" content="Mint For Free (first 500)"/>
+        <meta property="fc:frame:button:1" content="Mint For Free"/>
         <meta property="fc:frame:button:1:action" content="tx"/>
         <meta 
           property="fc:frame:button:1:target"
